@@ -19,7 +19,7 @@ Para ejecutar utilizar run_scraper.bat
 
 Sobre la primer ejecucion:
 	No es necesario tener los csv inptus o la base de datos creada para ejecutar por primera vez.
-	Esta ejecución solo va a generar un listado de tiendas y sus atributos en la base de datos, 
+	Esta ejecuciÃ³n solo va a generar un listado de tiendas y sus atributos en la base de datos, 
 	 que luego se van a usar con los filtros ingresados en los inputs
 
 Siguientes ejecuciones:
@@ -36,7 +36,7 @@ Tablas:
 	- EANS
 		Cada nuevo ean que se descargue, se almacena en esta tabla, junto a sus atributos:
 			- Descripcion
-			- Presentación
+			- PresentaciÃ³n
 			- Marca
 	- Productos
 		Contiene la data descargada por el metodo "Productos" de la API
@@ -65,7 +65,7 @@ Input data:
 	Otra forma de seleccionar las tiendas, es directamente especificandolas en input_comercios.csv
 
 	- Input Comercios:
-		Si algun comercio ID se ingresó en esta lista, se descarta lo ingresado en Input Banderas e Input Provincias
+		Si algun comercio ID se ingresÃ³ en esta lista, se descarta lo ingresado en Input Banderas e Input Provincias
 		 y se descarga unicamente lo especificado en este archivo.
 
 --------------------------------------------------------------------------------------------------------------------------------------
