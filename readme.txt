@@ -1,3 +1,10 @@
+https://www.preciosclaros.gob.ar/ es un programa del gobierno argentino del que participan las principales cadenas de supermercados de toda la región. Su función es informar a los consumidores sobre los mejores precios cercanos a su ubicación.
+Cada Retail comparte con Precios Claros de forma diaria, todos los precios de un set de articulos por punto de venta.
+
+Este programa consulta a la API de precios claros para obtener todos los precios de un listado de tienda o provincias predefinidos, y almacena los datos en una base sqlite.
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
 Instalacion:
 
 se requiere: 
@@ -24,7 +31,8 @@ Sobre la primer ejecucion:
 
 Siguientes ejecuciones:
 	Los archivos input_banderas.csv, input_provincias.csv y input_comercios.csv ya 
-	 deben estar creados y completos con los parametros de descarga
+	deben estan creados y completos con los parametros de descarga.
+	Si no se completan, con la ejecucipon solo se actualizan los datos de comercios.
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
