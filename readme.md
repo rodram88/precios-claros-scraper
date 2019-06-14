@@ -7,10 +7,6 @@ y almacena los datos en una base sqlite.
 
 Se sugiere usar en conjunto con un servicio de VPN con rotación de ip automatica, ya que la API impone quotas diarias.
 
-Imagenes:
-Comercios y su ubicación: Color = Bandera, tamaño = amplitud de surtido del punto d eventa
-![testimage](https://github.com/rodram88/precios-claros-scraper/blob/master/images/comercios.PNG?raw=true)
-
 --------------------------------------------------------------------------------------------------------------------------------------
 
 Para ejecutar utilizar run_scraper.bat
@@ -50,21 +46,26 @@ Tablas:
 --------------------------------------------------------------------------------------------------------------------------------------
 
 Input data: 
-	Definen los parametros de busqueda: Todos los comercios que cumplan con las condiciones especificadas en estos
-	archivos se van a descargar con el programa
-	Los datos ingresados eben listarse una debajo del otro, sin quotes
+Definen los parametros de busqueda: Todos los comercios que cumplan con las condiciones especificadas en estos
+archivos se van a descargar con el programa
 
-	- Input Banderas:
-		Ingresar lista de banderas a descargar		
-	- Input Provincias:
-		Ingresar lista de provincias a descargar
+Los datos ingresados eben listarse una debajo del otro, sin quotes
 
-	Estas 2 listas funcionan en simultaneo: Se descargan Banderas de las provincias especificadas.
+Input_Banderas.csv: Ingresar lista de banderas a descargar		
+Input_Provincias.csv: Ingresar lista de provincias a descargar
 
-	Otra forma de seleccionar las tiendas, es directamente especificandolas en input_comercios.csv
+Estas 2 listas funcionan en simultaneo: Se descargan Banderas de las provincias especificadas.
 
-	- Input Comercios:
-		Si algun comercio ID se ingresó en esta lista, se descarta lo ingresado en Input Banderas e Input Provincias
-		 y se descarga unicamente lo especificado en este archivo.
+Otra forma de seleccionar las tiendas, es directamente especificandolas en input_comercios.csv
+Esta forma omite lo ingresado en Input_Banderas.csv e Input_Provincias.csv
+- Input Comercios:
+	Si algun comercio ID se ingresó en esta lista, se descarta lo ingresado en Input Banderas e Input Provincias
+	 y se descarga unicamente lo especificado en este archivo.
 
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Imagenes
+
+Comercios y su ubicación: Color = Bandera, tamaño = amplitud de surtido del punto d eventa
+![testimage](https://github.com/rodram88/precios-claros-scraper/blob/master/images/comercios.PNG?raw=true)
 
