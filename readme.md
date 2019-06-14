@@ -9,6 +9,23 @@ Se sugiere usar en conjunto con un servicio de VPN con rotación de ip automatic
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
+Ejemplos de los datos descargados
+
+- Comercios y su ubicación
+	- Color = Bandera
+	- Tamaño = amplitud de surtido del punto de venta
+![testimage](https://github.com/rodram88/precios-claros-scraper/blob/master/images/comercios.PNG?raw=true)
+
+Analisis de esquema tarifario de bandera Carrefour
+- Color de burbuja representa un esquema tarifario
+	- Rojo = Precio alto
+	- Amarillo = Precio Medio
+	- Verde = Precio Bajo
+- Tamaño = amplitud de surtido del punto de venta
+![testimage](https://github.com/rodram88/precios-claros-scraper/blob/master/images/esquema_tarifario_carrefour.png?raw=true)
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
 Para ejecutar utilizar run_scraper.bat
 
 Sobre la primer ejecucion:
@@ -59,21 +76,5 @@ Esta forma omite lo ingresado en Input_Banderas.csv e Input_Provincias.csv
 	Si algun comercio ID se ingresó en esta lista, se descarta lo ingresado en Input Banderas e Input Provincias
 	 y se descarga unicamente lo especificado en este archivo.
 
---------------------------------------------------------------------------------------------------------------------------------------
-
-Imagenes
-
-- Comercios y su ubicación
-	- Color = Bandera
-	- Tamaño = amplitud de surtido del punto de venta
-![testimage](https://github.com/rodram88/precios-claros-scraper/blob/master/images/comercios.PNG?raw=true)
-
-Analisis de esquema tarifario de bandera Carrefour
-- Color de burbuja representa un esquema tarifario
-	- Rojo = Precio alto
-	- Amarillo = Precio Medio
-	- Verde = Precio Bajo
-- Tamaño = amplitud de surtido del punto de venta
-![testimage](https://github.com/rodram88/precios-claros-scraper/blob/master/images/esquema_tarifario_carrefour.png?raw=true)
 
 
