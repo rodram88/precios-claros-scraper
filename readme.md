@@ -76,5 +76,5 @@ Esta forma omite lo ingresado en Input_Banderas.csv e Input_Provincias.csv
 	Si algun comercio ID se ingresó en esta lista, se descarta lo ingresado en Input Banderas e Input Provincias
 	 y se descarga unicamente lo especificado en este archivo.
 
-
+- Comercios_y_provincias_txt contiene referencias a los datos a ingresar en los csv inputs
 
