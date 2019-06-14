@@ -4,13 +4,10 @@ Cada Retail comparte con Precios Claros de forma diaria, todos los precios de un
 
 Este programa consulta a la API de precios claros para obtener todos los precios de un listado de tienda o provincias predefinidos, 
 y almacena los datos en una base sqlite. 
-Dicho proceso conlleva obstaculos como:
-	- la API impone límites a la cantidad de resultados a consultar por día. Esto se supera usando un servicio de VPN como ibVPN
-	  que permite rotar entre un set de IPs cada cierto intervalo de tiempo. El programa contempla esto, y consulta la IP al 
-	  comenzar y finalizar la descarga de datos de cada comercio. Si los datos difieren se reinicia la descarga del comercio.
-	- al consultar un comercio, la API devuelve los resultados en N páginas.
 
-![testimage](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiHpYGE1uniAhW9FLkGHUslAV8QjRx6BAgBEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FArgentina&psig=AOvVaw1wZfVTMhpDGzcYPC9qFUlh&ust=1560625730455243)
+Se sugiere usar en conjunto con un servicio de VPN con rotación de ip automatica, ya que la API impone quotas diarias.
+
+![testimage](https://www.fbi.gov/image-repository/world-map-highlighting-argentina-stock.jpg/@@images/image/large)
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
