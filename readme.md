@@ -26,22 +26,19 @@ Siguientes ejecuciones:
 Almacenamiento
 Toda la data se almacena en una base de datos sqlite
 Tablas:
-	- Comercios
-		Contiene el listado de comercios y sus atributos, ademas de las fechas de carga, revision, y descarga de productos
-	- EANS
-		Cada nuevo ean que se descargue, se almacena en esta tabla, junto a sus atributos:
-			- Descripcion
-			- Presentación
-			- Marca
-	- Productos
-		Contiene la data descargada por el metodo "Productos" de la API
-		Devuelve un listado completo de productos de la tienda, y solo el precio de lista
-	- Productos_Promo
-		Con los EANS activos en la tienda, generado por el metodo "Productos", se los usa como input en el metodo "Comparativa"
-		Esto devuelve ademas los precios promocionales y si los productos se encuentran disponibles
-	- Promos
-		A fin de no almacenar las descripciones en cada registro de Productos_Promo, se almacenan en esta tabla y se les	
-		 asigna un ID
+- Comercios: Contiene el listado de comercios y sus atributos, ademas de las fechas de carga, revision, y descarga de productos
+- EANS: Cada nuevo ean que se descargue, se almacena en esta tabla, junto a sus atributos:
+	- Descripcion
+	- Presentación
+	- Marca
+- Productos
+	- Contiene la data descargada por el metodo "Productos" de la API
+	- Devuelve un listado completo de productos de la tienda, y solo el precio de lista
+- Productos_Promo
+	- Con los EANS activos en la tienda, generado por el metodo "Productos", se los usa como input en el metodo "Comparativa"
+	- Esto devuelve ademas los precios promocionales y si los productos se encuentran disponibles
+- Promos
+	- A fin de no almacenar las descripciones en cada registro de Productos_Promo, se almacenan en esta tabla y se les asigna un ID
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -51,8 +48,8 @@ archivos se van a descargar con el programa
 
 Los datos ingresados eben listarse una debajo del otro, sin quotes
 
-Input_Banderas.csv: Ingresar lista de banderas a descargar		
-Input_Provincias.csv: Ingresar lista de provincias a descargar
+- Input_Banderas.csv: Ingresar lista de banderas a descargar		
+- Input_Provincias.csv: Ingresar lista de provincias a descargar
 
 Estas 2 listas funcionan en simultaneo: Se descargan Banderas de las provincias especificadas.
 
