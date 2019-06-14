@@ -61,7 +61,7 @@ Input data:
 Definen los parametros de busqueda: Todos los comercios que cumplan con las condiciones especificadas en estos
 archivos se van a descargar con el programa
 
-Los datos ingresados eben listarse una debajo del otro, sin quotes
+Los datos ingresados deben listarse una debajo del otro sin quotes
 
 - Input_Banderas.csv: Ingresar lista de banderas a descargar		
 - Input_Provincias.csv: Ingresar lista de provincias a descargar
