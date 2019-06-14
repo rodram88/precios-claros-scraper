@@ -7,7 +7,7 @@ y almacena los datos en una base sqlite.
 
 Se sugiere usar en conjunto con un servicio de VPN con rotación de ip automatica, ya que la API impone quotas diarias.
 
-![testimage](https://www.fbi.gov/image-repository/world-map-highlighting-argentina-stock.jpg/@@images/image/large)
+![testimage](https://github.com/rodram88/precios-claros-scraper/blob/master/images/comercios.PNG?raw=true)
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
