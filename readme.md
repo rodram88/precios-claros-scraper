@@ -5,8 +5,6 @@ Cada Retail comparte con Precios Claros de forma diaria, todos los precios de un
 Este programa consulta a la API de precios claros para obtener todos los precios de un listado de tienda o provincias predefinidos, 
 y almacena los datos en una base sqlite. 
 
-Se sugiere usar en conjunto con un servicio de VPN con rotación de ip automatica, ya que la API impone quotas diarias.
-
 --------------------------------------------------------------------------------------------------------------------------------------
 
 Ejemplos de los datos descargados
