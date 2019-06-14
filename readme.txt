@@ -9,24 +9,7 @@ Dicho proceso conlleva obstaculos como:
 	  que permite rotar entre un set de IPs cada cierto intervalo de tiempo. El programa contempla esto, y consulta la IP al 
 	  comenzar y finalizar la descarga de datos de cada comercio. Si los datos difieren se reinicia la descarga del comercio.
 	- al consultar un comercio, la API devuelve los resultados en N páginas.
-
---------------------------------------------------------------------------------------------------------------------------------------
-
-Instalacion:
-
-se requiere: 
-	- Python 3.6
-	- PIP
-	- Virtualenv
-
-Validar que existen con los comandos: python --version / pip --version / virtualenv --version
-
-Crear virtualenv
-	- En la carpeta root del proyecto ejecutar el comando: virtualenv nombre_venv
-
-Solo la primera vez que se usa el venv se deben instalar las dependencias del programa, ubicadas en requirements.txt
-	- una vez activado el virtual env en el root folder del proyecto usar el comando: pip install -r requirements.txt
-
+	
 --------------------------------------------------------------------------------------------------------------------------------------
 
 Para ejecutar utilizar run_scraper.bat
@@ -83,79 +66,4 @@ Input data:
 		Si algun comercio ID se ingresó en esta lista, se descarta lo ingresado en Input Banderas e Input Provincias
 		 y se descarga unicamente lo especificado en este archivo.
 
---------------------------------------------------------------------------------------------------------------------------------------
 
-Provincias:
-
-AR-A	Salta
-AR-B	Buenos Aires
-AR-C	Capital Federal
-AR-D	San Luis
-AR-E	Entre Rios
-AR-F	La Rioja
-AR-G	Santiago del Estero
-AR-H	Chaco
-AR-J	San Juan
-AR-K	Catamarca
-AR-L	La Pampa
-AR-M	Mendoza
-AR-N	Misiones
-AR-P	Formosa
-AR-Q	Neuquen
-AR-R	Rio Negro
-AR-S	Santa Fe
-AR-T	Tucuman
-AR-U	Chubut
-AR-V	Ushuaia
-AR-W	Corrientes
-AR-X	Cordoba
-AR-Y	Jujuy
-AR-Z	Santa Cruz
-
---------------------------------------------------------------------------------------------------------------------------------------
-
-Banderas: (actualizada al 04-05-2019)
-
-Supermercados DIA
-Express
-Vea
-La Anonima
-Cooperativa Obrera Limitada de Consumo y Vivienda
-COTO CICSA
-Atomo
-Market
-Hipermercado Carrefour
-Disco
-Axion Energy
-Changomas
-DEHEZA S.A.I.C.F. e I.
-Simplicity
-Walmart SuperCenter
-Supermercados Cordiez
-Jumbo
-Toledo
-Supermercados Comodin
-Topsy
-Hipermercado Libertad
-SuperCLC
-Mini Libertad
-Supermercados Becerra
-Super Aiello
-Mariano Max
-Abastecimiento Mercamax
-JOSIMAR SUPERMERCADOS
-Mi Changomas
-California Supermercados
-Super MAMI
-LA AGRICOLA REGIONAL COOPERATIVA LIMITADA
-SUPERMERCADOS EL NENE
-Maxi Comodin
-Sup. Unicoop
-Bomba
-Super Tuti1 y Super Tuti 3
-Super Tuti2 y Super Todo
-ALMACENES PAMPAS
-ALMACENES DE MARCA
-MUCOOP CAP.SARMIENTO
-LA AMISTAD
-ESTACION LIMA S.A.
