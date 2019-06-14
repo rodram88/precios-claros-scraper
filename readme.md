@@ -7,6 +7,8 @@ y almacena los datos en una base sqlite.
 
 Se sugiere usar en conjunto con un servicio de VPN con rotación de ip automatica, ya que la API impone quotas diarias.
 
+Imagenes:
+Comercios y su ubicación: Color = Bandera, tamaño = amplitud de surtido del punto d eventa
 ![testimage](https://github.com/rodram88/precios-claros-scraper/blob/master/images/comercios.PNG?raw=true)
 
 --------------------------------------------------------------------------------------------------------------------------------------
