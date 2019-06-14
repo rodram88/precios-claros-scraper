@@ -3,7 +3,12 @@ de toda la región. Su función es informar a los consumidores sobre los mejores
 Cada Retail comparte con Precios Claros de forma diaria, todos los precios de un set de articulos por punto de venta.
 
 Este programa consulta a la API de precios claros para obtener todos los precios de un listado de tienda o provincias predefinidos, 
-y almacena los datos en una base sqlite.
+y almacena los datos en una base sqlite. 
+Dicho proceso conlleva obstaculos como:
+	- la API impone límites a la cantidad de resultados a consultar por día. Esto se supera usando un servicio de VPN como ibVPN
+	  que permite rotar entre un set de IPs cada cierto intervalo de tiempo. El programa contempla esto, y consulta la IP al 
+	  comenzar y finalizar la descarga de datos de cada comercio. Si los datos difieren se reinicia la descarga del comercio.
+	- al consultar un comercio, la API devuelve los resultados en N páginas.
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
