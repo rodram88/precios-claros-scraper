@@ -63,6 +63,17 @@ Esta forma omite lo ingresado en Input_Banderas.csv e Input_Provincias.csv
 
 Imagenes
 
-Comercios y su ubicación: Color = Bandera, tamaño = amplitud de surtido del punto d eventa
+- Comercios y su ubicación
+	- Color = Bandera
+	- Tamaño = amplitud de surtido del punto de venta
 ![testimage](https://github.com/rodram88/precios-claros-scraper/blob/master/images/comercios.PNG?raw=true)
+
+Analisis de esquema tarifario de bandera Carrefour
+- Color de burbuja representa un esquema tarifario
+	- Rojo = Precio alto
+	- Amarillo = Precio Medio
+	- Verde = Precio Bajo
+- Tamaño = amplitud de surtido del punto de venta
+![testimage](https://github.com/rodram88/precios-claros-scraper/blob/master/images/esquema_tarifario_carrefour.png?raw=true)
+
 
