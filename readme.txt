@@ -1,7 +1,9 @@
-https://www.preciosclaros.gob.ar/ es un programa del gobierno argentino del que participan las principales cadenas de supermercados de toda la región. Su función es informar a los consumidores sobre los mejores precios cercanos a su ubicación.
+https://www.preciosclaros.gob.ar/ es un programa del gobierno argentino del que participan las principales cadenas de supermercados 
+de toda la región. Su función es informar a los consumidores sobre los mejores precios cercanos a su ubicación.
 Cada Retail comparte con Precios Claros de forma diaria, todos los precios de un set de articulos por punto de venta.
 
-Este programa consulta a la API de precios claros para obtener todos los precios de un listado de tienda o provincias predefinidos, y almacena los datos en una base sqlite.
+Este programa consulta a la API de precios claros para obtener todos los precios de un listado de tienda o provincias predefinidos, 
+y almacena los datos en una base sqlite.
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
