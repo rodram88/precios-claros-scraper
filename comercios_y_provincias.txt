@@ -1,0 +1,74 @@
+Provincias:
+
+AR-A	Salta
+AR-B	Buenos Aires
+AR-C	Capital Federal
+AR-D	San Luis
+AR-E	Entre Rios
+AR-F	La Rioja
+AR-G	Santiago del Estero
+AR-H	Chaco
+AR-J	San Juan
+AR-K	Catamarca
+AR-L	La Pampa
+AR-M	Mendoza
+AR-N	Misiones
+AR-P	Formosa
+AR-Q	Neuquen
+AR-R	Rio Negro
+AR-S	Santa Fe
+AR-T	Tucuman
+AR-U	Chubut
+AR-V	Ushuaia
+AR-W	Corrientes
+AR-X	Cordoba
+AR-Y	Jujuy
+AR-Z	Santa Cruz
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Banderas: (actualizada al 04-05-2019)
+
+Supermercados DIA
+Express
+Vea
+La Anonima
+Cooperativa Obrera Limitada de Consumo y Vivienda
+COTO CICSA
+Atomo
+Market
+Hipermercado Carrefour
+Disco
+Axion Energy
+Changomas
+DEHEZA S.A.I.C.F. e I.
+Simplicity
+Walmart SuperCenter
+Supermercados Cordiez
+Jumbo
+Toledo
+Supermercados Comodin
+Topsy
+Hipermercado Libertad
+SuperCLC
+Mini Libertad
+Supermercados Becerra
+Super Aiello
+Mariano Max
+Abastecimiento Mercamax
+JOSIMAR SUPERMERCADOS
+Mi Changomas
+California Supermercados
+Super MAMI
+LA AGRICOLA REGIONAL COOPERATIVA LIMITADA
+SUPERMERCADOS EL NENE
+Maxi Comodin
+Sup. Unicoop
+Bomba
+Super Tuti1 y Super Tuti 3
+Super Tuti2 y Super Todo
+ALMACENES PAMPAS
+ALMACENES DE MARCA
+MUCOOP CAP.SARMIENTO
+LA AMISTAD
+ESTACION LIMA S.A.
