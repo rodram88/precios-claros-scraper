@@ -9,7 +9,9 @@ Dicho proceso conlleva obstaculos como:
 	  que permite rotar entre un set de IPs cada cierto intervalo de tiempo. El programa contempla esto, y consulta la IP al 
 	  comenzar y finalizar la descarga de datos de cada comercio. Si los datos difieren se reinicia la descarga del comercio.
 	- al consultar un comercio, la API devuelve los resultados en N páginas.
-	
+
+![testimage](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiHpYGE1uniAhW9FLkGHUslAV8QjRx6BAgBEAU&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FArgentina&psig=AOvVaw1wZfVTMhpDGzcYPC9qFUlh&ust=1560625730455243)
+
 --------------------------------------------------------------------------------------------------------------------------------------
 
 Para ejecutar utilizar run_scraper.bat
